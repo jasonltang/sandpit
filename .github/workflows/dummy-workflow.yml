@@ -1,0 +1,14 @@
+name: Jason's dummy workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  dummy-step-1:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Greet
+        run: echo foo
+      - name: Display time
+        run: date
